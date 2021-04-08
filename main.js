@@ -167,7 +167,7 @@ function car1_right()
 {
     if(car1_x <= 700)
      {
-         car_x += 10;
+         car1_x += 10;
          console.log("when  right arrow is pressed, x = " +car1_x + " | y = " + car1_y);
          uploadcar1();
          uploadcar2();
